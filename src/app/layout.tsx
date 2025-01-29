@@ -7,9 +7,9 @@ import '@/styles/globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
-const title = 'BadEnd'
+const title = 'Mahad Aziz'
 const description =
-    "👋 Hello! I'm BadEnd, a passionate Full Stack Developer with expertise in efficient web solutions. Explore my portfolio and contact me on GitHub."
+    "👋 Hello! I'm Mahad Aziz, a passionate Full Stack Developer with expertise in efficient web solutions. Explore my portfolio and contact me on GitHub."
 const url = BASE_URL
 
 export const metadata: Metadata = {
@@ -97,7 +97,7 @@ const RootLayout = ({ children }: RootLayoutProps) => {
                 <meta charSet="utf-8" />
                 <meta
                     name="keywords"
-                    content="BadEnd, Full Stack Developer, Web Developer, Web Solutions, Portfolio, GitHub"
+                    content="Mahad Aziz, Full Stack Developer, Web Developer, Web Solutions, Portfolio, GitHub"
                 />
 
                 {/* lazy loading images */}

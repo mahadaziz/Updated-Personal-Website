@@ -16,10 +16,10 @@ export const projects = [
     {
         title: 'Personal Website',
         description: 'My personal website built with Next.js, TypeScript, shadcn/ui, and Tailwind CSS.',
-        image: '/images/projects/personal-website.webp',
+        image: '/images/projects/personal-website.PNG',
         status: {
             text: 'View Source',
-            link: 'https://github.com/BadEnd777/Personal-Website',
+            link: 'https://github.com/mahadaziz/Updated-Personal-Website',
             icon: 'icon-[tabler--arrow-right]',
         },
         isFeatured: true,

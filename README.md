@@ -1,12 +1,10 @@
 # Personal Website
 
-![https://badend.is-a.dev/](https://raw.githubusercontent.com/BadEnd777/Personal-Website/main/.github/assets/preview.png)
-
 Welcome to my personal website project! This repository contains the code for my personal website, where I showcase my portfolio, projects, and other information about myself.
 
 The website is built using [Next.js](https://nextjs.org/) as the build tool, [Shadcn UI](https://ui.shadcn.com/) as the JavaScript library for building user interfaces, [Tailwind CSS](https://tailwindcss.com/) for styling, and [TypeScript](https://www.typescriptlang.org/) for type checking and improved developer experience.
 
-The website is hosted on [https://badend.is-a.dev/](https://badend.is-a.dev/), and you can visit it to see the live version.
+The website is hosted on [https://mahadaziz.com/](https://mahadaziz.com/), and you can visit it to see the live version.
 
 [![CodeQL](https://github.com/BadEnd777/Personal-Website/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/BadEnd777/Personal-Website/actions/workflows/github-code-scanning/codeql)
 [![🛡️ GitGuardian scan](https://github.com/BadEnd777/Personal-Website/actions/workflows/gitguardian.yml/badge.svg)](https://github.com/BadEnd777/Personal-Website/actions/workflows/gitguardian.yml)
@@ -47,15 +45,13 @@ To work on the project locally, ensure you have Node.js installed on your machin
 -   Clone the repository:
 
 ```bash
-git clone https://github.com/BadEnd777/Personal-Website.git
+git clone https://github.com/mahadaziz/Updated-Personal-Website.git
 ```
-
-> Alternatively, you can [download the ZIP file](https://github.com/BadEnd777/Personal-Website/archive/refs/heads/main.zip) and extract it to a directory of your choice.
 
 -   Navigate to the project directory:
 
 ```bash
-cd Personal-Website # or open the directory in your file explorer
+cd Updated-Personal-Website # or open the directory in your file explorer
 ```
 
 -   Install dependencies:
@@ -98,17 +94,9 @@ The project structure is as follows:
 -   `tailwind.config.ts`: Tailwind CSS configuration.
 -   `tsconfig.json`: TypeScript configuration.
 
-## Contributing
-
-Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or create a pull request.
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-
-Feel free to contact me at [badend777@proton.me](mailto:badend777@proton.me) for any questions or inquiries.
 
 Happy coding! 🚀
 

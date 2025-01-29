@@ -1,6 +1,9 @@
 export const biography = [
-    { year: '2003', description: 'Born in Samut Sakhon, Thailand. Loved maths and problem-solving.' },
-    { year: '2009', description: 'Moved to Phichit, Thailand. Discovered passion for technology and programming.' },
+    { year: '2001', description: 'Born in Louisville, Kentucky, USA. Loved math and problem-solving.' },
+    {
+        year: '2012',
+        description: 'Moved to Milton, Ontario, Canada. Discovered passion for technology and programming.',
+    },
     {
         year: '2019',
         description:

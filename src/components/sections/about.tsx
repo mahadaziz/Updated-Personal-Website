@@ -1,7 +1,7 @@
 import { SkillsCarousel } from '@/components/skills-carousel'
 import { Typography } from '@/components/typography'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
-import { biography, education, experience } from '@/data'
+import { education, experience } from '@/data'
 
 export const About = () => {
     return (
@@ -12,9 +12,14 @@ export const About = () => {
             <div className="flex flex-col space-y-6">
                 <Typography variant="h2">Summary</Typography>
                 <p className="text-lg text-muted-foreground">
-                    Enthusiastic and results-driven freelance developer with a solid background in web development.
-                    Passionate about crafting responsive and efficient web solutions, dedicated to delivering
-                    high-quality work. Seeking opportunities to leverage my skills and expertise in innovative projects.
+                    Innovative and results-driven software engineer with a strong foundation in full-stack web
+                    development, cloud computing, and AI-driven applications. Experienced in developing scalable and
+                    efficient solutions, from AI-powered writing assistants to Adobe extensions, leveraging modern
+                    frameworks like React, Next.js, Flask, and Node.js. Adept at managing end-to-end software
+                    development lifecycles, resolving complex technical issues, and collaborating with cross-functional
+                    teams. Passionate about delivering high-quality solutions that enhance user experience and system
+                    performance. Seeking opportunities to apply my technical expertise to impactful and forward-thinking
+                    projects.
                 </p>
             </div>
             <div className="flex flex-col space-y-6">
@@ -41,7 +46,7 @@ export const About = () => {
                     ))}
                 </div>
             </div>
-            <div className="flex flex-col space-y-6">
+            {/* <div className="flex flex-col space-y-6">
                 <Typography variant="h2">Biography</Typography>
                 <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
                     {biography.map((item) => (
@@ -55,7 +60,7 @@ export const About = () => {
                         </Card>
                     ))}
                 </div>
-            </div>
+            </div> */}
             <div className="flex flex-col space-y-6">
                 <Typography variant="h2">My Skills</Typography>
                 <SkillsCarousel />

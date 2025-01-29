@@ -18,7 +18,7 @@ const HomePage = () => {
                             variant="h1"
                             className="text-base sm:text-xl md:text-3xl lg:text-5xl font-bold leading-none tracking-tight"
                         >
-                            Hi, I&apos;m <span className="text-primary">BadEnd</span>
+                            Hi, I&apos;m <span className="text-primary">Mahad Aziz</span>
                         </Typography>
                     </div>
                     <p className="text-md text-muted-foreground">
@@ -27,8 +27,14 @@ const HomePage = () => {
                         projects.
                     </p>
                     <div className="flex space-x-4">
+                        <a href="/Mahad Aziz Resume.pdf" download>
+                            <Button className="text-primary-foreground" aria-label="Download Resume">
+                                Download Resume
+                                <span className="icon-[tabler--download] size-6" />
+                            </Button>
+                        </a>
                         <NextLink href="/projects">
-                            <Button className="text-primary-foreground" aria-label="View Projects">
+                            <Button variant="secondary" className="gap-2" aria-label="View Projects">
                                 View Projects
                             </Button>
                         </NextLink>
@@ -41,7 +47,7 @@ const HomePage = () => {
                     </div>
                 </div>
                 <Image
-                    src="/images/profile.webp"
+                    src="/images/profilepic.jpg"
                     alt="Profile"
                     width={500}
                     height={500}
