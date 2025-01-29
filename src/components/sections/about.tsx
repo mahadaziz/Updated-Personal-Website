@@ -1,7 +1,7 @@
 import { SkillsCarousel } from '@/components/skills-carousel'
 import { Typography } from '@/components/typography'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
-import { education, experience } from '@/data'
+import { biography, education, experience } from '@/data'
 
 export const About = () => {
     return (
@@ -46,21 +46,22 @@ export const About = () => {
                     ))}
                 </div>
             </div>
-            {/* <div className="flex flex-col space-y-6">
-                <Typography variant="h2">Biography</Typography>
+            <div className="flex flex-col space-y-6">
+                <Typography variant="h2">Extra-Curriculars</Typography>
                 <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
                     {biography.map((item) => (
                         <Card key={item.year} className="w-full">
                             <CardHeader>
-                                <CardTitle>{item.year}</CardTitle>
+                                <CardTitle>{item.title}</CardTitle>
                             </CardHeader>
                             <CardContent>
+                                <p>{item.year}</p>
                                 <CardDescription>{item.description}</CardDescription>
                             </CardContent>
                         </Card>
                     ))}
                 </div>
-            </div> */}
+            </div>
             <div className="flex flex-col space-y-6">
                 <Typography variant="h2">My Skills</Typography>
                 <SkillsCarousel />

@@ -1,21 +1,8 @@
 export const biography = [
-    { year: '2001', description: 'Born in Louisville, Kentucky, USA. Loved math and problem-solving.' },
     {
-        year: '2012',
-        description: 'Moved to Milton, Ontario, Canada. Discovered passion for technology and programming.',
-    },
-    {
-        year: '2019',
+        title: 'Event Organizer, Google Developer Student Club McMaster',
+        year: 'September 2020 - April 2024',
         description:
-            'Graduated top of class from Ratbamrung School (Phichit). Continued to explore tech and programming.',
-    },
-    {
-        year: '2021',
-        description: 'Started freelancing as a developer, specializing in web applications and e-commerce sites.',
-    },
-    {
-        year: '2022',
-        description:
-            'Completed Business Computer program at Phichit Technical College, excelling in programming and web development.',
+            'Organized workshops for students to learn new computer programming languages and tools. Responsible for teaching many new skills such as App Development and Web Development. Developed strong analytical and problem-solving skills by participating in various coding competitions that require knowledge of various programming languages',
     },
 ]

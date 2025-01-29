@@ -1,3 +1,4 @@
+import ComingSoon from '@/app/coming-soon'
 import { Layout } from '@/components/layout'
 import { Blog } from '@/components/sections/blog'
 import { OPEN_GRAPH_IMAGE } from '@/config'
@@ -34,9 +35,14 @@ const BlogPage = async () => {
 
     return (
         <Layout>
-            <Blog blogs={blogs} />
+            <ComingSoon />
         </Layout>
     )
+    // return (
+    //     <Layout>
+    //         <Blog blogs={blogs} />
+    //     </Layout>
+    // )
 }
 
 export default BlogPage
