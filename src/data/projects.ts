@@ -14,6 +14,31 @@ isFullWidth: true - Make the project image full width.
 
 export const projects = [
     {
+        title: 'Collabspace',
+        description:
+            'Real-time collaborative document editor built with Next.js 15, React 19, Tiptap v3, and Yjs CRDT in TypeScript strict mode, gated by a custom Node.js WebSocket sync server using NextAuth v5 JWTs and per-document ACLs. Persists Yjs state to Postgres on a 10s idle debounce to decouple DB writes from keystroke rate, and ships live cursors and presence via Yjs awareness and Tiptap CollaborationCaret with deterministic userId-to-HSL coloring and multi-tab dedup. Infrastructure provisioned with Terraform (VPC, ECR, EC2/SSM, IAM, Route53) and deployed through a 3-stage GitHub Actions pipeline using OIDC for keyless deploys, shipping 2 containers behind a Caddy TLS/WebSocket proxy.',
+        image: '/images/projects/personal-website.PNG',
+        status: {
+            text: 'View Source',
+            link: 'https://github.com/mahadaziz/Collabspace',
+            icon: 'icon-[tabler--arrow-right]',
+        },
+        isFeatured: true,
+        isFullWidth: true,
+    },
+    {
+        title: 'Journey AI',
+        description:
+            'Full-stack AI writing assistant built with Next.js, Flask, and MongoDB, iterating on UX through user testing. Integrated Falcon-7B via the Hugging Face Inference API for context-aware suggestions, tuning prompts through systematic evaluation. Built dynamic D3.js visualizations to transform user-uploaded datasets into interactive graphs, and implemented NextAuth.js with OAuth providers for secure session management.',
+        image: '/images/projects/JourneyAI.PNG',
+        status: {
+            text: 'View Source',
+            link: 'https://github.com/mahadaziz/JourneyAI',
+            icon: 'icon-[tabler--arrow-right]',
+        },
+        isFeatured: true,
+    },
+    {
         title: 'Personal Website',
         description: 'My personal website built with Next.js, TypeScript, shadcn/ui, and Tailwind CSS.',
         image: '/images/projects/personal-website.PNG',
@@ -23,19 +48,6 @@ export const projects = [
             icon: 'icon-[tabler--arrow-right]',
         },
         note: 'In development',
-        isFeatured: true,
-        isFullWidth: true,
-    },
-    {
-        title: 'JourneyAI',
-        description:
-            'A full-stack data-driven AI writing assistant for journalists and storywriters that can analyse and visualize large amounts of data',
-        image: '/images/projects/JourneyAI.PNG',
-        status: {
-            text: 'View Source',
-            link: 'https://github.com/mahadaziz/JourneyAI',
-            icon: 'icon-[tabler--arrow-right]',
-        },
         isFeatured: true,
     },
     {

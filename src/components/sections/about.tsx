@@ -12,14 +12,14 @@ export const About = () => {
             <div className="flex flex-col space-y-6">
                 <Typography variant="h2">Summary</Typography>
                 <p className="text-lg text-muted-foreground">
-                    Innovative and results-driven software engineer with a strong foundation in full-stack web
-                    development, cloud computing, and AI-driven applications. Experienced in developing scalable and
-                    efficient solutions, from AI-powered writing assistants to Adobe extensions, leveraging modern
-                    frameworks like React, Next.js, Flask, and Node.js. Adept at managing end-to-end software
-                    development lifecycles, resolving complex technical issues, and collaborating with cross-functional
-                    teams. Passionate about delivering high-quality solutions that enhance user experience and system
-                    performance. Seeking opportunities to apply my technical expertise to impactful and forward-thinking
-                    projects.
+                    Full-stack software engineer with experience shipping production tools for broadcast media,
+                    real-time collaborative applications, and AI-driven products. At Evertz Microsystems, I built an
+                    Adobe Premiere CEP extension from scratch now deployed at multiple customer sites, and drove
+                    reliability and performance work across a 5-service broadcast multiviewer (React, Node.js, WAMP
+                    messaging, hardware drivers). Outside of work I build with Next.js, TypeScript, Postgres, and AWS
+                    via Terraform — most recently a real-time collaborative document editor backed by a custom Yjs
+                    WebSocket sync server. I care about clean architecture, careful state management, and turning fuzzy
+                    requirements into reliable, well-tested systems.
                 </p>
             </div>
             <div className="flex flex-col space-y-6">

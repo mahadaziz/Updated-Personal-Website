@@ -1,15 +1,15 @@
 export const experience = [
     {
-        title: 'Junior Design Engineer, Evertz Microsystems | May 2024 - Present',
+        title: 'Junior Software Engineer, Evertz Microsystems | May 2024 - Present',
         subtitle: 'Burlington, Ontario, Canada',
         description:
-            'Independently managed the development and maintenance of a project running as an Adobe extension, delivering critical features and enhancements to meet customer requirements. Acted as the primary point of contact for clients, addressing their technical issues, gathering feedback, and providing timely solutions to ensure customer satisfaction and project success. Developed and deployed scalable features for an Adobe extension using React, while leveraging Docker for containerized environments and Jenkins for CI/CD pipelines. Utilized Azure for cloud deployment and resource management, ensuring high availability and performance. Authored comprehensive technical documentation, including setup guides and troubleshooting manuals, to facilitate onboarding and maintenance',
+            'Built the Adobe Media Suite from scratch — a React + CEP extension running inside Adobe Premiere, now deployed at multiple broadcast customer sites; delivered sequence/clip import via Adobe Media Encoder with .epr preset workflows, metamarks-to-clip generation, and full clip/sequence management. Maintain and contributed extensively to a 5-service broadcast multiviewer design tool (React frontend, server, hardware driver, web UI, WAMP messaging), currently rolling out to customers; implemented runtime display-count resizing, full-window widget geometry preserving video layouts, and support for 14 new device layout configurations. Drove cross-stack reliability work across frontend, server, and the WAMP messaging layer: resolved race conditions in concurrent layout updates, eliminated orphaned canvas state on system initialization, and refactored live-update notification handling. Optimized device discovery in the management UI to filter to relevant device types instead of fetching the full device list, eliminating ~90% of irrelevant entries from the response on large customer deployments and cutting load time on the clients grid.',
     },
     {
         title: 'Student Design Engineer - Software, Evertz Microsystems | May 2022 - April 2024',
         subtitle: 'Burlington, Ontario, Canada',
         description:
-            'Designed and implemented a Drag-and-Drop File Upload feature in Python and React, including the development of RESTful API endpoints to handle file uploads and server-side validation. Integrated API calls on the frontend to ensure seamless communication with the backend, improving user efficiency by 20%, while adhering to coding standards and contributing to development guidelines. Resolved over 100 feature, improvement, and bug tickets across React, TypeScript, JavaScript, and Flask, improving application stability and reducing user-reported issues by 30%. Mentored 2 new interns through code reviews, improving their coding practices and contributing to a 15% reduction in project turnaround time by enhancing code quality and maintainability',
+            'Built a drag-and-drop file upload feature with RESTful endpoints handling secure transfer for production media workflows. Triaged and resolved 150+ feature requests and bugs across React, TypeScript, and Flask codebases over a two-year co-op rotation. Authored technical documentation and mentored two interns through code reviews and pairing sessions, accelerating their ramp onto the codebase.',
     },
     {
         title: 'Summer Sales Intern, JTI Macdonald Corp. | May 2021 - August 2021',

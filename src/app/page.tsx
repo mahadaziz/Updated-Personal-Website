@@ -27,7 +27,7 @@ const HomePage = () => {
                         projects.
                     </p>
                     <div className="flex space-x-4">
-                        <a href="/Mahad Aziz Resume.pdf" download>
+                        <a href="/MahadAzizResume.pdf" download>
                             <Button className="text-primary-foreground" aria-label="Download Resume">
                                 Download Resume
                                 <span className="icon-[tabler--download] size-6" />
