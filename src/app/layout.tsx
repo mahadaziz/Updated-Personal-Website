@@ -45,8 +45,8 @@ export const metadata: Metadata = {
         images: [
             {
                 url: OPEN_GRAPH_IMAGE, // or an array of images
-                width: 800,
-                height: 600,
+                width: 1280,
+                height: 800,
             },
         ],
         locale: 'en_US',
@@ -59,17 +59,14 @@ export const metadata: Metadata = {
             default: `${title} - Personal Website`,
         },
         description,
-        creator: '@BadEnd777',
         images: [OPEN_GRAPH_IMAGE], // or an array of images
     },
     robots: {
-        index: false,
+        index: true,
         follow: true,
-        nocache: true,
         googleBot: {
             index: true,
-            follow: false,
-            noimageindex: true,
+            follow: true,
             'max-video-preview': -1,
             'max-image-preview': 'large',
             'max-snippet': -1,
@@ -99,9 +96,6 @@ const RootLayout = ({ children }: RootLayoutProps) => {
                     name="keywords"
                     content="Mahad Aziz, Full Stack Developer, Web Developer, Web Solutions, Portfolio, GitHub"
                 />
-
-                {/* lazy loading images */}
-                <script src="https://afarkas.github.io/lazysizes/lazysizes.min.js" async></script>
             </head>
             <body className={inter.className}>
                 <ThemeProvider attribute="class" enableSystem disableTransitionOnChange>

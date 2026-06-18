@@ -1,8 +1,6 @@
 import ComingSoon from '@/app/coming-soon'
 import { Layout } from '@/components/layout'
-import { Blog } from '@/components/sections/blog'
 import { OPEN_GRAPH_IMAGE } from '@/config'
-import { getBlogList } from '@/lib/blog'
 import type { Metadata } from 'next'
 
 const title = 'Blog'
@@ -18,8 +16,8 @@ export const metadata: Metadata = {
         images: [
             {
                 url: OPEN_GRAPH_IMAGE,
-                width: 800,
-                height: 600,
+                width: 1280,
+                height: 800,
             },
         ],
     },
@@ -30,19 +28,12 @@ export const metadata: Metadata = {
     },
 }
 
-const BlogPage = async () => {
-    const blogs = await getBlogList()
-
+const BlogPage = () => {
     return (
         <Layout>
             <ComingSoon />
         </Layout>
     )
-    // return (
-    //     <Layout>
-    //         <Blog blogs={blogs} />
-    //     </Layout>
-    // )
 }
 
 export default BlogPage

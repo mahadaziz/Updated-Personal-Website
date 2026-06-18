@@ -6,8 +6,8 @@ The website is built using [Next.js](https://nextjs.org/) as the build tool, [Sh
 
 The website is hosted on [https://mahadaziz.com/](https://mahadaziz.com/), and you can visit it to see the live version.
 
-[![CodeQL](https://github.com/BadEnd777/Personal-Website/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/BadEnd777/Personal-Website/actions/workflows/github-code-scanning/codeql)
-[![🛡️ GitGuardian scan](https://github.com/BadEnd777/Personal-Website/actions/workflows/gitguardian.yml/badge.svg)](https://github.com/BadEnd777/Personal-Website/actions/workflows/gitguardian.yml)
+[![CodeQL](https://github.com/mahadaziz/Updated-Personal-Website/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/mahadaziz/Updated-Personal-Website/actions/workflows/github-code-scanning/codeql)
+[![🛡️ GitGuardian scan](https://github.com/mahadaziz/Updated-Personal-Website/actions/workflows/gitguardian.yml/badge.svg)](https://github.com/mahadaziz/Updated-Personal-Website/actions/workflows/gitguardian.yml)
 
 ## Table of Contents
 
@@ -76,7 +76,7 @@ To build the project for production deployment, run:
 npm run build  # or `pnpm run build` if you prefer pnpm
 ```
 
-The optimized production-ready assets will be generated in the `dist` directory. You can then host these files on a web server to make the website accessible online.
+The optimized production-ready static assets will be generated in the `out` directory (the project uses Next.js static export). You can then host these files on any static web server to make the website accessible online.
 
 ## Project Structure
 
@@ -89,7 +89,7 @@ The project structure is as follows:
     -   `data`: Contains the data files for the website.
     -   `lib`: Contains the utility functions and helper modules for the website.
     -   `styles`: Contains the Tailwind CSS styles for the website.
--   `components.json`: Shadcn-solid components configuration.
+-   `components.json`: shadcn/ui components configuration.
 -   `postcss.config.js`: PostCSS configuration.
 -   `tailwind.config.ts`: Tailwind CSS configuration.
 -   `tsconfig.json`: TypeScript configuration.

@@ -1,3 +1,4 @@
+import { cn } from '@/lib/utils'
 import { HTMLAttributes, ReactNode } from 'react'
 
 interface TypographyProps extends HTMLAttributes<HTMLHeadingElement> {
@@ -16,10 +17,10 @@ const variants = {
     h6: 'text-sm font-semibold leading-none tracking-tight',
 }
 
-export const Typography = ({ variant, underline, classes, children }: TypographyProps) => {
+export const Typography = ({ variant, underline, classes, className, children }: TypographyProps) => {
     const isUnderlined = underline ? 'border-b pb-4' : ''
 
-    const combinedClasses = `scroll-m-20 tracking-tight ${variants[variant]} ${isUnderlined} ${classes || ''}`
+    const combinedClasses = cn('scroll-m-20 tracking-tight', variants[variant], isUnderlined, classes, className)
 
     const component = {
         h1: <h1 className={combinedClasses}>{children}</h1>,
